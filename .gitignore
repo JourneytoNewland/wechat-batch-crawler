@@ -32,3 +32,9 @@ output/
 
 # 元数据(可选,如果不想提交已爬取记录)
 # output/**/_metadata.json
+
+# 凭据和敏感信息
+.git-credentials-file/
+*.token
+*_credentials.sh
+.github_token
