@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# 虚拟环境
+venv/
+
+# 输出目录
+output/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# 日志
+*.log
+
+# 临时文件
+*.tmp
+.write_test
+
+# 元数据(可选,如果不想提交已爬取记录)
+# output/**/_metadata.json

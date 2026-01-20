@@ -1,0 +1,16 @@
+{
+  "name": "wechat-batch-crawl",
+  "version": "1.3.0",
+  "description": "Batch scrapes WeChat articles from RSS feeds with intelligent anti-crawl mechanisms, date-based filtering, automatic deduplication, and comprehensive reporting. Use when user mentions WeChat article scraping, content acquisition, RSS feed processing, or article collection management.",
+  "activation": "When you need to batch scrape WeChat articles from RSS feeds, specify target dates, list available articles, or manage crawled content",
+  "tags": ["wechat", "scraper", "rss", "content-acquisition"],
+  "configuration": {
+    "rss_feed_url": "http://172.32.153.184:8001/feed/all.rss",
+    "output_base_dir": "./output/微信批量爬取",
+    "max_workers": 3,
+    "delay_range": [5, 15],
+    "retry_limit": 3,
+    "timeout": 30
+  },
+  "related_skills": ["content-summarizer", "knowledge-manager"]
+}
